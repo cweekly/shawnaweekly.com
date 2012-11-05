@@ -3,16 +3,19 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Shawna Weekly -- Therapist, Entrepreneur, Wife, Friend
+
+    Chris Weekly -- Developer, Husband, Friend -- @cweekly
 
 # THANKS
 
-    <name>
+    Amazing and generous devs at Github, Twitter-Bootstrap, jQuery, H5BP, etc. 
+      
 
 # TECHNOLOGY COLOPHON
 
     HTML5, LESS, CSS3
     jQuery, Modernizr
     Twitter-Bootstrap
-    Github
-
+    Github-pages
+    Jekyll
