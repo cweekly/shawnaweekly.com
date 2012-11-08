@@ -1,8 +1,29 @@
 
-// Main bootstrap configuration:
-@import "../less/lib/tbs-2.1.1/bootstrap.less"; // NOT including responsive.less!
+// Main bootstrap import, not including responsive.less:
+@import "../less/lib/tbs-2.1.1/bootstrap.less";
 
 // TBS 2.1.1 fix for full-width static navbar
 .navbar-inner {
-  .border-radius(0); 
+  .border-radius(0);
 }
+
+.navbar .nav > li > a:hover {
+  color: yellow;
+}
+
+@media (max-width: 767px) {
+  .navbar .brand {
+    font-size: 16px;
+  }
+}
+
+.hero-unit .portrait {
+  max-width: 33%;
+  float: right;
+  padding-left: 0.5em;
+}
+
+// VARIABLE OVERRIDES (despite LESS docs saying they're constants)
+@navbarInverseText: @white;
+@navbarInverseLinkColor: @white;
+@sansFontFamily: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
